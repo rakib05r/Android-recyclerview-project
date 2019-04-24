@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    android:gravity="center"
+    tools:context=".view.SplashActivity">
+
+
+    <ProgressBar
+        android:id="@+id/progressbarid"
+        android:progressTint="@color/colorPrimary"
+        android:progressBackgroundTint="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intern Project"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="65sp"
+        android:id="@+id/textintern"
+        android:layout_above="@+id/progressbarid"
+        android:layout_marginBottom="20sp"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorWhite"/>
+
+</RelativeLayout>

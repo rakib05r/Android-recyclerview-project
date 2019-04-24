@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.SignupActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="Sign Up"
+            android:textStyle="italic"
+            android:fontFamily="cursive"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimary"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/backbutton"
+            android:onClick="backsignin"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="150dp"
+            android:src="@drawable/wthree" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Full Name"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            />
+        <EditText
+            android:id="@+id/editmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Email"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/editpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPassword"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/editconfirmpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPassword"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/button_background"
+            android:textColor="@color/colorWhite"
+            android:onClick="signup"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already Have an Account?"
+            android:gravity="center"
+            android:onClick="signin"
+            android:fontFamily="cursive"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:layout_marginTop="10sp"
+            android:onClick="signin"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

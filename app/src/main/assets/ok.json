@@ -1,0 +1,56 @@
+[
+	{
+		"name":"Md.Rokibul Islam",
+		"desegnation":"Intern",
+		"team":"Android",
+		"image":"https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027366__340.png"
+	},
+	{
+		"name":"Md.Sumon Ali",
+		"desegnation":"Intern",
+		"team":"Web",
+		"image":"https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_960_720.png"
+	},
+	{
+		"name":"Md.Zahid",
+		"desegnation":"Intern",
+		"team":"Android",
+		"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiZKZSLr7YYgcDXyKKXonX1OJ_BxslyAWoyecK_8lFk0XafWle"
+	},
+	{
+		"name":"Tushar Pramanick",
+		"desegnation":"Intern",
+		"team":"Web",
+		"image":"http://www.proeins.com/wp-content/uploads/2018/09/default-avatar-rapper-guy.png"
+	},
+	{
+		"name":"Al-Amin",
+		"desegnation":"Intern",
+		"team":"Web",
+		"image":"https://openclipart.org/image/2400px/svg_to_png/261880/Cartoon-Man-Avatar.png"
+	},
+	{
+		"name":"Soma Paul",
+		"desegnation":"Intern",
+		"team":"Android",
+		"image":"https://wordsmith.org/words/images/avatar2_large.png"
+	},
+	{
+		"name":"Naz Zarren Oishie",
+		"desegnation":"Intern",
+		"team":"Web",
+		"image":"https://png.pngtree.com/png_detail/18/09/10/pngtree-girl-avatar-png-clipart_2752055.jpg"
+	},
+	{
+		"name":"Rumpa Paul",
+		"desegnation":"Intern",
+		"team":"Web",
+		"image":"http://avatars.design/wp-content/uploads/2016/09/avatar1a.jpg"
+	},
+	{
+		"name":"Md.Juel",
+		"desegnation":"Intern",
+		"team":"Android",
+		"image":"https://st2.depositphotos.com/1007566/12304/v/950/depositphotos_123041468-stock-illustration-avatar-man-cartoon.jpg"
+	}
+]

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment_Android</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">HlPUOxjzLc1bKaqMcCFc7LmQtvhyj05tk0cuGE6v</string>
+    <string name="back4app_client_key">vHH1Xy1fn048Pkg1FVfUFmkmRkSmOAYLNaGBVJRp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
